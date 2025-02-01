@@ -1,0 +1,82 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0; 
+}
+
+.menu {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    height: 50px;
+    width: 424px;
+    background-color: antiquewhite;
+    position: center;
+}
+.menu h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1 1;
+    text-shadow: 2px 2px 5px grey;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    height: 600px;
+    width: 400px;
+    border: 2px dotted blue;
+    position: center;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+
+.container div#display {
+    height: 80px;
+    flex: 0 0 auto; 
+    background-color: azure;
+    width: 95%; 
+    height: 20%;
+    border: 1px solid grey;
+}
+
+
+.container .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex: 0, 0, auto;
+    width: 95%;
+    height: 20%;
+
+}
+
+.container .row button {
+    flex: 0,0, auto;
+    height: 100px;
+    width: 150px;
+    background-color: gainsboro;
+    border: 0;
+    font-size: x-large;
+}
+
+.container .row button:active {
+    background-color: turquoise;  
+    transform: scale(0.95);  
+}
