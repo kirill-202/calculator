@@ -50,8 +50,12 @@ body {
     flex: 0 0 auto; 
     background-color: azure;
     width: 95%; 
-    height: 20%;
+    height: 12%;
     border: 1px solid grey;
+    text-align: start;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
 }
 
 
